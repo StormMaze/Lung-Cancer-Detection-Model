@@ -70,7 +70,7 @@ pip install pandas scikit-learn matplotlib
 ### Files Description
 
 * **LungCancerDetection.ipynb** – Jupyter Notebook containing data preprocessing, model training, evaluation, and visualization.
-* **survey lung cancer.csv** – Dataset used for training and testing the models.
+* **lung_cancer.csv** – Dataset used for training and testing the models.
 * **README.md** – Project documentation.
 
 
