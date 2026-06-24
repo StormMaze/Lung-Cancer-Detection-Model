@@ -1,4 +1,4 @@
-# Lung Cancer Prediction Using ML
+# Lung Cancer Detection Using ML
 
 ## Overview
 
