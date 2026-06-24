@@ -6,7 +6,6 @@ Early detection of lung cancer can significantly improve treatment outcomes and 
 
 The objective of this project is to analyze the factors associated with lung cancer and compare the performance of different predictive models. Both regression and classification approaches were implemented using **Linear Regression** and **K-Nearest Neighbors (KNN)** to understand how effectively they can identify potential lung cancer cases.
 
----
 
 ## Dataset
 
@@ -16,7 +15,6 @@ The target variable indicates whether a person has lung cancer:
 
 **YES** – Diagnosed with lung cancer  **NO** – Not diagnosed with lung cancer
 
----
 
 ## Features Used
 
@@ -43,7 +41,6 @@ Most categorical variables are encoded as:
 
 * YES = 2 * NO = 1
 
----
 
 ## Technologies Used
 
@@ -76,7 +73,6 @@ pip install pandas scikit-learn matplotlib
 * **survey lung cancer.csv** – Dataset used for training and testing the models.
 * **README.md** – Project documentation.
 
----
 
 ## Methodology
 
@@ -88,7 +84,6 @@ Before training the models, the dataset undergoes several preprocessing steps:
 * Data splitting into training and testing sets
 * Transformation using Scikit learn's preprocessing tools
 
----
 
 ### 2. Linear Regression
 
@@ -100,7 +95,6 @@ Evaluation Metrics:
 
 A feature coefficient (loadings) plot was also generated to visualize the impact of different variables on the prediction.
 
----
 
 ### 3. K-Nearest Neighbors Regression
 
@@ -114,8 +108,6 @@ Key Steps:
 Evaluation Metrics:
 * RMSE
 * MAE
-
----
 
 ### 4. K-Nearest Neighbors Classification
 
@@ -131,7 +123,6 @@ Evaluation Metrics:
 
 These metrics provide a detailed understanding of the model's ability to correctly identify both positive and negative cases.
 
----
 
 ## Running the Project
 
@@ -145,7 +136,6 @@ git clone https://github.com/StormMaze/Lung-Cancer-Detection-Model.git
 
 Make sure the dataset file i.e survey ' lung_cancer.csv ' is placed in the same directory as the notebook.
 
----
 
 ### Step 2: Run the Notebook
 
@@ -162,7 +152,6 @@ The notebook will:
 * Evaluate performance
 * Generate visualizations
 
----
 
 ### Step 3: Review Results
 
@@ -172,7 +161,6 @@ After execution, review:
 * Classification results
 * Comparative analysis between models
 
----
 
 ## Results and Observations
 
@@ -192,7 +180,6 @@ After execution, review:
 * High recall makes it useful for early detection applications.
 * Lower specificity indicates a tendency toward false positives, suggesting further optimization may improve performance.
 
----
 
 ## Key Insights
 
@@ -200,7 +187,6 @@ After execution, review:
 * KNN-based approaches perform well due to their ability to capture local patterns within the dataset.
 * High recall is particularly valuable in healthcare applications because missing a positive cancer case can have serious consequences.
 
----
 
 ## Conclusion
 
