@@ -161,6 +161,12 @@ After execution, review:
 * Classification results
 * Comparative analysis between models
 
+### Alternate step
+1. Download the dataset.
+2. Open the ipynb file in colab. [![click here to Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/StormMaze/Lung-Cancer-Detection-Model/blob/main/LungCancerDetection.ipynb)
+3. Upload the dataset to colab.
+4. Review result
+
 
 ## Results and Observations
 
